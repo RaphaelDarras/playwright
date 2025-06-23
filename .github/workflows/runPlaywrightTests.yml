@@ -7,4 +7,6 @@ jobs:
     - name: Check out repository code
       uses: actions/checkout@v4   
     - run: npm ci   
-    - run: npx playwright test --project=chromium
+    - run: |
+        npm playwright install
+        npx playwright test --project=chromium
