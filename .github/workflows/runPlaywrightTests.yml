@@ -2,5 +2,5 @@ name: Run Playwright tests
 on: [push]
 jobs: 
   run-playwright-tests:
-  runs-on: ubuntu-latest
-  steps: npx playwright test --project=chromium
+    runs-on: ubuntu-latest
+    steps: npx playwright test --project=chromium
