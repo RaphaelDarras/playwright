@@ -7,5 +7,5 @@ jobs:
     - name: Check out repository code
       uses: actions/checkout@v4   
     - run: npm ci   
-    - run: npm install playwright
+    - run: npx install playwright
     - run: npx playwright test --project=firefox
