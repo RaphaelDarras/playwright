@@ -4,5 +4,5 @@ jobs:
   run-playwright-tests:
     runs-on: ubuntu-latest
     steps: 
-      - run: npm install
+      - run: ls -ail
       - run: npx playwright test --project=chromium
