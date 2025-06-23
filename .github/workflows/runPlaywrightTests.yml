@@ -4,5 +4,5 @@ jobs:
   run-playwright-tests:
     runs-on: ubuntu-latest
     steps: 
-      - run: ls -ail
+      - run: pwd
       - run: npx playwright test --project=chromium
