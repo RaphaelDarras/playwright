@@ -8,5 +8,5 @@ jobs:
       uses: actions/checkout@v4   
     - run: npm ci   
     - run: |
-        npm playwright install
+        npm install playwright
         npx playwright test --project=chromium
